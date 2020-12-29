@@ -1,0 +1,28 @@
+<template>
+  <div id="">
+
+  </div>
+</template>
+<script lang="ts">
+// 在vue2中 data 在vue3中使用 reactive代替
+// import  from ''
+
+export default {
+  // setup相当于vue2.0的 beforeCreate和 created，是vue3新增的一个属性，所有的操作都在此属性中完成
+  setup() {
+    // 通过reactive 可以初始化一个可响应的数据，与Vue2.0中的Vue.observer很相似
+    const state = reactive({
+
+    })
+    // 在Vue3.0中，所有的数据和方法都通过在setup 中 return 出去，然后在template中使用
+    return {
+      state,
+
+    }
+  }
+}
+</script>
+<style scoped lang="stylus" rel="stylesheet/stylus">
+
+
+</style>

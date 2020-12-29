@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
-import App from './App.vue'
-import './index.css'
+import 'lib-flexible/flexible'
+import './assets/stylus/reset.styl'
 import router from'./router/index'
 import store from'./store/index'
-
+import App from './App.vue'
 
 
 const  app = createApp(App)
@@ -11,5 +11,7 @@ const  app = createApp(App)
 app.use(router)
 app.use(store)
 app.mount('#app')
+
+// app.config.productionTip = false
 
 // createApp(App).mount('#app')

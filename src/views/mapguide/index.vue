@@ -1,13 +1,22 @@
 <template>
-mapguide
+  <div id="mapguideContainer"></div>
+
 </template>
 
-<script>
+<script lang="ts">
 export default {
-name: "index"
+  name: "index"
+
 }
 </script>
 
-<style scoped>
+<style scoped lang="stylus" rel="stylesheet/stylus">
+
+#mapguideContainer{
+  width 100%
+  height 100%
+  overflow hidden
+}
+
 
 </style>

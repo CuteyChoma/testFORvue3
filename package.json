@@ -1,6 +1,6 @@
 {
-  "name": "vue3",
-  "version": "0.0.0",
+  "name": "choma_vue3_study",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
@@ -12,6 +12,12 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "autoprefixer": "^10.1.0",
+    "lib-flexible": "^0.3.2",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-px2rem": "^0.3.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^4.3.1",
     "typescript": "^4.0.2",
     "vite": "^1.0.0-rc.1"
   }
